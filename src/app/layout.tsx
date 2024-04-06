@@ -7,16 +7,16 @@ const zen = Zen_Kaku_Gothic_Antique({
 	weight: ['400', '700'],
 	display: 'swap',
 	variable: '--font-zen',
-	style: ['normal'],
+	style: ['normal']
 })
 
 export const metadata: Metadata = {
 	title: 'OKD Kanban',
-	description: 'Best one for planning',
+	description: 'Best one for planning'
 }
 
 export default function RootLayout({
-	children,
+	children
 }: Readonly<{
 	children: React.ReactNode
 }>) {
