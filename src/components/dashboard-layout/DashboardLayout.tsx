@@ -4,7 +4,7 @@ import { type PropsWithChildren } from 'react'
 import { ProfileSection } from './profile/ProfileSection'
 import { Sidebar } from './sidebar/Sidebar'
 
-export default function Layout({ children }: PropsWithChildren) {
+export function DashboardLayout({ children }: PropsWithChildren) {
 	return (
 		<div>
 			<Sidebar />

@@ -21,3 +21,6 @@ yarn add sass
 Did not affect from url
 /(public)
 /(dashboard)
+
+Icons - https://lucide.dev/
+yarn add lucide-react
